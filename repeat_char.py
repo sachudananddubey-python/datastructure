@@ -14,7 +14,7 @@ def RepeatCh(ch):
       freq[i] = 1
   max_char = max(freq, key=freq.get)
 
-  return max_char
+  return max_char, freq[max_char]
   
 
 freq = "programming"
